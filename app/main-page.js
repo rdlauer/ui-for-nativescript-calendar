@@ -1,5 +1,5 @@
 var Observable = require("data/observable").Observable;
-var calendarModule = require("nativescript-pro-ui/calendar");
+var calendarModule = require("nativescript-ui-calendar");
 
 var page;
 var pageData = new Observable();
