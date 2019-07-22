@@ -1,6 +1,6 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:calendar="nativescript-ui-calendar" loaded="pageLoaded">
 	<ActionBar title="RadCalendar Demo" class="action-bar" />
-	<calendar:RadCalendar id="myCalendar" eventSource="{{ events }}" />
+	<calendar:RadCalendar id="myCalendar" eventSource="{{ events }}" eventsViewMode="Inline" viewMode="Month" transitionMode="Stack" />
 	<!--
 	eventsViewMode="Inline" viewMode="Month" transitionMode="Stack"
 	-->
